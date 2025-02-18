@@ -22,7 +22,7 @@
 /* Estilo das informações de contato */
 .numero, .contato, .endereco {
     font-family: Centaur;
-    font-size: 2.5vw; /* Tamanho da fonte proporcional à tela */
+    font-size: 2vw; /* Tamanho da fonte proporcional à tela */
     color: #3d464e;
 }
 
@@ -39,7 +39,7 @@
     background-color: hsl(225, 2%, 57%);
     border-radius: 15px;
     width: 90%; /* Usa 90% da largura da tela */
-    max-width: 700px; /* Limita a largura máxima para telas grandes */
+    max-width: 600px; /* Limita a largura máxima para telas grandes */
     filter: drop-shadow(0 0 1rem rgb(110, 109, 107));
     box-shadow: 1px 1px 1rem rgb(0, 0, 0);
     margin: 0 auto;
