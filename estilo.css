@@ -14,7 +14,7 @@
 
 /* Ajuste para os ícones */
 .iconecelular, .email, .local {
-    width: 3.5vw;  /* Tamanho proporcional à tela */
+    width: 4vw;  /* Tamanho proporcional à tela */
     height: auto;
     margin-left: 10px;
 }
@@ -29,7 +29,7 @@
 /* Título do site */
 .titulo {
     font-family: Centaur;
-    font-size: 3vw; /* Tamanho de fonte relativo */
+    font-size: 2.5vw; /* Tamanho de fonte relativo */
     color: #3d464e;
     text-align: center;
 }
