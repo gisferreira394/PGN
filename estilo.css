@@ -50,7 +50,7 @@
     position: fixed;
     left: 0;
     width: 100%;
-    padding: 10px;
+    padding: 17px;
     bottom: 0;
 }
 
@@ -63,7 +63,7 @@
 /* Estilo do bloco3 */
 .bloco3 {
     background-color: #646667;
-    bottom: 0;
+    bottom: 0px;
 }
 
 /* Ajuste para o container de grid (se você estiver usando esse tipo de layout) */
