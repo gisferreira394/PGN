@@ -1,48 +1,92 @@
-.logopgn{
-    margin-left: 43%;
-    width: 200px;
+.body{
+    background-color: hsl(225, 2%, 57%);
 }
 
-.descricao{
- text-align: center;
- font-family: Georgia, 'Times New Roman', Times, serif
+.logo{
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    
 }
 
-.phone{
-    width: 55px; 
+.iconecelular{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+
 }
 
 .numero{
-    font-size: large;
+    font-family: Centaur;
+    font-size: 25px;
+    color: #3d464e;
 }
 
 .email{
     width: 50px;
+    height: 50px;
+    margin-left: 10px;
 }
 
-.enderecodeemail{
-    font-size: large;
-    margin-left: 2%;
+.contato{
+    font-family: Centaur;
+    font-size: 25px;
+    color: #3d464e;
+
 }
 
 .local{
     width: 50px;
-margin-left: 2%;
-
+    height: 50px;
+    margin-left: 10px;
 }
 
 .endereco{
-    font-size: large;
+    font-family: Centaur;
+    font-size: 25px;
+    color:#3d464e;
+}
+
+.titulo{
+    font-family: Centaur;
+    font-size: 30px;
+    color: #3d464e;
+    text-align: center;
 }
 
 .bloco{
-    background-color: rgb(103, 103, 104);
-border-radius: 20px;
-width: 560px;
-filter: drop-shadow(0 0 1rem rgb(110, 109, 107));
+    background-color:hsl(225, 2%, 57%);
+    border-radius: 15px;
+    width: 560px;
+    filter: drop-shadow(0 0 1rem rgb(110, 109, 107));
     box-shadow: 1px 1px 1rem rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
-.body{
-    background-color: rgb(175, 175, 175);
+.bloco2{
+    background-color:#2b3943;
+    padding: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bloco3{
+    background-color:#646667;
+    padding: 34px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+ .container{  /* Faz um site ser responsivo !!!!  */
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 1px);  
 }
