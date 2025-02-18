@@ -5,7 +5,7 @@
 
 /* Logo ajustada para tela */
 .logo {
-    width: 14vw;  /* Logo vai ocupar 15% da largura da tela */
+    width: 13vw;  /* Logo vai ocupar 15% da largura da tela */
     height: auto;  /* Mantém a proporção da imagem */
     margin: 0 auto;
     display: block;
@@ -14,7 +14,7 @@
 
 /* Ajuste para os ícones */
 .iconecelular, .email, .local {
-    width: 4vw;  /* Tamanho proporcional à tela */
+    width: 4.5vw;  /* Tamanho proporcional à tela */
     height: auto;
     margin-left: 10px;
 }
