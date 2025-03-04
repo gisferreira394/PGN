@@ -12,6 +12,10 @@
     margin-top: 10px;
 }
 
+.link{
+    color: #3d464e;
+}
+
 /* Ajuste para os ícones */
 .iconecelular, .email, .local {
     width: 4.5vw;  /* Tamanho proporcional à tela */
