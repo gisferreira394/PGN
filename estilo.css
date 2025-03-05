@@ -47,6 +47,8 @@
     filter: drop-shadow(0 0 1rem rgb(110, 109, 107));
     box-shadow: 1px 1px 1rem rgb(0, 0, 0);
     margin: 0 auto;
+    box-shadow: 7px 10px #3d464e;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 /* Bloco fixo inferior (barra) */
@@ -69,6 +71,15 @@
     background-color: #646667;
     bottom: 0px;
 }
+
+.bloco4{
+    background-color:#3d464e;
+    position: fixed;
+    bottom: 97%;
+    padding: 200px;
+    left: 0;
+    width: 100%;
+    }
 
 /* Ajuste para o container de grid (se você estiver usando esse tipo de layout) */
 .container {
