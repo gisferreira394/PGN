@@ -1,7 +1,4 @@
-/* Corpo da página */
-.body {
-    background-color: hsl(225, 2%, 57%);
-}
+
 
 /* Logo ajustada para tela */
 .logo {
@@ -40,7 +37,6 @@
 
 /* Bloco principal */
 .bloco {
-    background-color: hsl(225, 2%, 57%);
     border-radius: 15px;
     width: 90%; /* Usa 90% da largura da tela */
     max-width: 600px; /* Limita a largura máxima para telas grandes */
