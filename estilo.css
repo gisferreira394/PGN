@@ -2,11 +2,11 @@
 
 /* Logo ajustada para tela */
 .logo {
-    width: 13vw;  /* Logo vai ocupar 15% da largura da tela */
+    width: 10vw;  /* Logo vai ocupar 15% da largura da tela */
     height: auto;  /* Mantém a proporção da imagem */
     margin: 0 auto;
     display: block;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .link{
@@ -30,7 +30,7 @@
 /* Título do site */
 .titulo {
     font-family: Centaur;
-    font-size: 2.5vw; /* Tamanho de fonte relativo */
+    font-size: 1.5vw; /* Tamanho de fonte relativo */
     color: #3d464e;
     text-align: center;
 }
