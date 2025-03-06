@@ -15,9 +15,9 @@
 
 /* Ajuste para os ícones */
 .iconecelular, .email, .local {
-    width: 4vw;  /* Tamanho proporcional à tela */
+    width: 3.80vw;  /* Tamanho proporcional à tela */
     height: auto;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 /* Estilo das informações de contato */
