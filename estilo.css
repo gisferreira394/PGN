@@ -1,124 +1,129 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-/* Logo ajustada para tela */
+/* Logo ajustada */
 .logo {
-    width: 13.5vw;  /* Logo vai ocupar 15% da largura da tela */
-    height: auto;  /* Mantém a proporção da imagem */
-    margin: 0 auto;
+    max-width: 150px; /* Logo com largura máxima */
+    width: 100%;  /* Garante que a logo seja responsiva */
+    height: auto; /* Mantém a proporção da imagem */
     display: block;
-    margin-top: 27px;
+    margin: 20px auto;
 }
 
-.link{
-    color: #3d464e;
-}
-
-/* Ajuste para os ícones */
-.iconecelular, .email, .local {
-    width: 3.80vw;  /* Tamanho proporcional à tela */
-    height: auto;
-    margin-left: 8px;
-}
-
-/* Estilo das informações de contato */
-.numero, .contato, .endereco {
-    font-family: Centaur;
-    font-size: 1.70vw; /* Tamanho da fonte proporcional à tela */
-    color: #3d464e;
-}
-
-/* Título do site */
+/* Estilo do título */
 .titulo {
-    font-family: Centaur;
-    font-size: 2.5vw; /* Tamanho de fonte relativo */
+    font-family: 'Centaur', serif;
+    font-size: 2.5rem; /* Tamanho do título */
     color: #3d464e;
     text-align: center;
+    margin-top: 20px;
+}
+
+/* Links de contato */
+.link {
+    color: #3d464e;
+    text-decoration: none;
+}
+
+/* Estilo dos ícones de contato */
+.iconecelular, .email, .local {
+    max-width: 24px; /* Tamanho máximo dos ícones */
+    height: auto;
+    margin-right: 8px;
+}
+
+/* Estilo dos blocos de informações */
+.numero, .contato, .endereco {
+    font-size: 1.2rem; /* Tamanho do texto de contato */
+    color: #3d464e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 }
 
 /* Bloco principal */
 .bloco {
-    border-radius: 15px;
-    max-height: 242px; /* Altura máxima do bloco */
-    width: 88%; /* Usa 90% da largura da tela */
-    max-width: 710px; /* Limita a largura máxima para telas grandes */
-    filter: drop-shadow(0 0 1rem rgb(110, 109, 107));
-    box-shadow: 1px 1px 1rem rgb(0, 0, 0);
-    margin: 0 auto;
-    box-shadow: 7px 10px #3d464e;
-    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    max-width: 710px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
-/* Bloco fixo inferior (barra) */
+/* Blocos fixos (inferiores) */
 .bloco2, .bloco3 {
     position: fixed;
-    left: 0;
-    width: 100%;
-    padding: 17px;
     bottom: 0;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
 }
 
-/* Estilo do bloco2 */
 .bloco2 {
     background-color: #2b3943;
-    bottom: 20px; /* Dá um espaçamento entre o topo e o fundo */
+    bottom: 50px;
 }
 
-/* Estilo do bloco3 */
 .bloco3 {
     background-color: #646667;
-    bottom: 0px;
 }
 
-.bloco4{
-    background-color:#3d464e;
-    position: fixed;
-    bottom: 97%;
-    padding: 200px;
-    left: 0;
-    width: 100%;
-    }
+/* Media Queries para diferentes tamanhos de tela */
 
-/* Ajuste para o container de grid (se você estiver usando esse tipo de layout) */
-.container {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* Colunas ajustáveis */
-    grid-template-rows: auto;
-}
-
-/* Ajustes de media queries */
+/* Para dispositivos com largura até 768px (tablets) */
 @media (max-width: 768px) {
-    /* Ajusta os itens para telas menores (como tablets) */
-    .numero, .contato, .endereco {
-        font-size: 5vw;  /* Ajusta o tamanho da fonte para dispositivos menores */
-    }
-
     .titulo {
-        font-size: 7vw; /* Ajuste no título para telas pequenas */
+        font-size: 2rem; /* Ajuste do tamanho do título */
     }
 
-    .bloco {
-        width: 90%;
-        padding: 15px;
-    }
-
-    .bloco2, .bloco3 {
-        padding: 10px;
-        font-size: 4vw; /* Tamanho da fonte proporcional nas barras */
-    }
-}
-
-@media (max-width: 480px) {
-    /* Ajusta ainda mais para telas muito pequenas (celulares) */
     .numero, .contato, .endereco {
-        font-size: 6vw; /* Ajuste maior para celulares */
+        font-size: 1rem; /* Ajuste do tamanho da fonte */
+    }
+
+    .logo {
+        max-width: 120px; /* Ajuste no tamanho da logo */
     }
 
     .bloco {
         width: 95%;
-        padding: 10px;
+        padding: 15px;
+    }
+
+    .bloco2, .bloco3 {
+        font-size: 1rem; /* Ajuste do tamanho da fonte nas barras */
+    }
+}
+
+/* Para dispositivos com largura até 480px (celulares) */
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5rem; /* Ajuste do tamanho do título */
+    }
+
+    .numero, .contato, .endereco {
+        font-size: 1rem; /* Ajuste do tamanho da fonte */
     }
 
     .logo {
-        width: 40vw;  /* Tamanho ajustado da logo em telas muito pequenas */
+        max-width: 100px; /* Ajuste no tamanho da logo */
+    }
+
+    .bloco {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .bloco2, .bloco3 {
+        font-size: 0.9rem; /* Ajuste do tamanho da fonte nas barras */
     }
 }
